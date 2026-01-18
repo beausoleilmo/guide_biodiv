@@ -13,10 +13,10 @@ source(
 
 # Fonctionne si vous téléchargez les jeux de données originaux localement. 
 # Suivre les indications dans chaque script
-# source(file = 'scripts/partie_1/Preparation_admin_region.R')
-# source(file = 'scripts/partie_1/Preparation_eco_region.R')
-# source(file = 'scripts/partie_1/Preparation_hydrologique.R')
-# source(file = 'scripts/partie_1/Preparation_villes.R')
+# source(file = 'scripts/partie_1/preparation_data/Preparation_admin_region.R')
+# source(file = 'scripts/partie_1/preparation_data/Preparation_eco_region.R')
+# source(file = 'scripts/partie_1/preparation_data/Preparation_hydrologique.R')
+# source(file = 'scripts/partie_1/preparation_data/Preparation_villes.R')
 
 # Charger le géopackage 
 regqc = sf::st_read(

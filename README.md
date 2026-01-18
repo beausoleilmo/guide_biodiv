@@ -65,7 +65,8 @@ renv::restore() # Permet de restaurer la session avec les mêmes versions
 
 #### Données 
 
-Les données préparées sont disponibles dans le projet et prêtes à être utilisées. Des scripts d'accompagnement permettent de voir comment les données ont été préparées (voir `scripts/partie_1/Prearation_*.R`).
+Les données préparées sont disponibles dans le projet et prêtes à être utilisées. 
+Des scripts d'accompagnement permettent de voir comment les données ont été préparées (voir `scripts/partie_1/preparation_data/Prearation_*.R`).
 
 
 #### Scripts d'analyses
