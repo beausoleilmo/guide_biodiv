@@ -7,21 +7,6 @@
 #'   name: Marc-Olivier Beausoleil
 #' ---
 
-# install.packages("renv") # Installation au besoin
-library(renv)
-
-# Installation de sf avec les dépendances (important pour lier correctement les libraires GEOS, GDAL et PROJ)
-renv::install(
-  packages = "sf", 
-  repos = "https://cran.rstudio.com/", 
-  type = 'source', 
-  prompt = FALSE
-)
-
-# Installation des autres progiciels 
-renv::restore() # Permet de restaurer la session avec les mêmes versions
-
-
 # Lire le script de préparation automatiquement
 source(
   file = 'scripts/00_init/00_initialize.R')
