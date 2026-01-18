@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+.Rprofile
+guide_biodiv.Rproj
+citations_R_packages.bib
+output
