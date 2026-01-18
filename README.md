@@ -24,8 +24,8 @@ brew install pkg-config gdal pandoc
 
 ##### Ubuntu : 
 ```bash
-sudo apt-get update
-sudo apt-get install libgdal-dev libgeos-dev libproj-dev pandoc
+sudo apt -y update
+sudo apt install -y libudunits2-dev libsqlite3-dev libgdal-dev libgeos-dev libproj-dev pandoc
 ```
 
 ##### Windows : 
@@ -34,7 +34,8 @@ sudo apt-get install libgdal-dev libgeos-dev libproj-dev pandoc
 
 
 Une fois le projet cloné et ouvert dans votre IDE de choix, installez le progiciel `renv`. 
-Le progiciel `sf` doit être installé à partir de la `source` (pour bien lier les bibliothèques spatiales installées dans l'état) avec les commandes suivantes.
+Le progiciel `sf` doit être installé à partir de la `source` (pour bien lier les bibliothèques spatiales installées dans l'état) avec les commandes suivantes. 
+Consultez la page d'installation [`sf`](https://r-spatial.github.io/sf/) au besoin.
 
 ```r
 # install.packages("renv") # Installation au besoin
