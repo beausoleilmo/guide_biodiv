@@ -30,6 +30,7 @@ sudo apt-get install libgdal-dev libgeos-dev libproj-dev pandoc
 
 ##### Windows : 
 - Installer [RTools](https://cran.r-project.org/bin/windows/Rtools/) 
+- Installer [pandoc](https://pandoc.org/installing.html)
 
 
 Une fois le projet cloné et ouvert dans votre IDE de choix, installez le progiciel `renv`. 
@@ -68,5 +69,8 @@ Les données préparées sont disponibles dans le projet et prêtes à être uti
 
 #### Scripts d'analyses
 
-Chaque partie a son script (très long : suit la logique du blogue Évologie : peut changer dans le futur)
+Chaque partie a son script. 
+- partie 1 : `scripts/partie_1/script_partie_1.R`
+
+Les scripts sont inspirés du blogue Évologie). 
 
