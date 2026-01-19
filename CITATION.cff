@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+authors:
+  - family-names: Beausoleil
+    given-names: Marc-Olivier
+    orcid: https://orcid.org/0000-0003-3717-3223
+title: "Guide d'identification de biodiversité"
+identifiers:
+  - type: url
+    value: https://github.com/beausoleilmo/guide_biodiv
+    description: Code et données
+repository-code: 'https://github.com/beausoleilmo/guide_biodiv'
+url: 'https://evologie.netlify.app'
+abstract: >-
+  Projet permettant de prendre des données d'observations de
+  biodiversité acquises par la science citoyenne et en faire
+  un guide d'identification.
+keywords:
+  - biodiversité
+  - évolution
+  - spatial
+  - R
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-01-18
