@@ -730,3 +730,19 @@ width = 12,
 height = 8, 
 dpi = 300
 )
+
+# On ajoute une étiquette avec le nombre d'espèces
+zhpb = eb_qc_topn_lvl_mtl_id |> 
+  mutate(
+    labs2 = sprintf('%s; sp : %s', 
+                    site_corr, 
+                    numSpeciesAllTime)
+  )
+
+# carte interactive pour le plaisir
+mapview(
+  zhpb, 
+  zcol = 'numSpeciesAllTime', 
+  layer.name = "NB espèces", 
+  label = "labs2"
+)
